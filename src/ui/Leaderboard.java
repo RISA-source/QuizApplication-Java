@@ -201,9 +201,9 @@ public class Leaderboard extends JFrame {
             for (QuizAttempt attempt : topScores) {
                 // Add medal emoji for top 3
                 String rankDisplay;
-                if (rank == 1) rankDisplay = "🥇 1st";
-                else if (rank == 2) rankDisplay = "🥈 2nd";
-                else if (rank == 3) rankDisplay = "🥉 3rd";
+                if (rank == 1) rankDisplay = "1st";
+                else if (rank == 2) rankDisplay = "2nd";
+                else if (rank == 3) rankDisplay = "3rd";
                 else rankDisplay = String.valueOf(rank);
                 
                 Object[] rowData = {
